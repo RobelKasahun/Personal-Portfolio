@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Robel Ayelew</title>
+    <!-- Bootstrap CSS link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-md sticky-top mb-0 border-bottom">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                &lt;Robel Ayelew/&gt;
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas"
+                aria-controls="offcanvas" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start pb-0" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasLabel">&lt;Robel Ayelew/&gt;</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav flex-grow-1 justify-content-center">
+                        <li class="nav-item me-5"><a class="nav-link" href="#about" data-bs-spy="scroll"
+                                data-bs-target="#about">About</a></li>
+                        <li class="nav-item me-5"><a class="nav-link" href="#projects" data-bs-spy="scroll"
+                                data-bs-target="#projects">Projects</a></li>
+                        <li class="nav-item me-5"><a class="nav-link" href="#education" data-bs-spy="scroll"
+                                data-bs-target="#education">Education</a></li>
+                        <li class="nav-item me-5"><a class="nav-link" href="#" data-bs-target="#exampleModalXl"
+                                data-bs-toggle="modal">Resume</a></li>
+                        <li class="nav-item me-5"><a class="nav-link" href="#contact" data-bs-spy="scroll"
+                                data-bs-target="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header section -->
+    <section class="header pt-5 container-fluid pb-5">
+        <div class="row container-fluid flex-row align-items-center justify-content-center">
+            <!-- <h1 class="col col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 display-1 h1">Hi there, I am Robel.<br />A
+                <span class="job-title">&lt;Software Engineer/&gt;</span>
+            </h1> -->
+            <h1 class="col col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 h1 display-1 fw-bold">Hi there, I am
+                Robel.<br />A
+                <span class="job-title">&lt;Software Engineer/&gt;</span>
+            </h1>
+            <img src="./assets/images/my-pic.jpg" alt="Image of Robel Ayelew" id="image-robel-ayelew"
+                class="col img-fluid col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6" />
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section class="about-section container-fluid pe-0 justify-content-center pt-5 bg-light" id="about">
+        <div class="container about-container">
+            <div class="row py-5 me-0 pe-0 align-items-center">
+                <div class="col about-me-text pe-0 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <h2 class="about-me-header-text text-center display-5 mb-3">&lt;About Me/&gt;</h2>
+                    <p class="about-me-paragraph lead me-5">
+                        Hello! I'm Robel, a passionate Computer Science student at San Francisco State University (SFSU)
+                        with a strong desire
+                        to contribute to innovative tech projects. My journey into the world of programming began with a
+                        curiosity for solving
+                        problems and creating meaningful solutions. Throughout my academic career, I've delved deep into
+                        various programming
+                        languages, frameworks, and development tools, honing my skills in software design, algorithms,
+                        and
+                        data structures.
+                    </p>
+                </div>
+
+                <div class="col about-me-image-section col-12 col-sm-12 col-md-4 col-lg-6 col-xl-6 col-xxl-6">
+                    <img src="./assets/images/me.jpg" alt="Image of Robel Ayelew" id="about-me-image"
+                        class="img-fluid" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section #2 -->
+    <section class="about-section container-fluid pe-0 justify-content-center bg-light">
+        <div class="container about-container">
+            <div class="row py-5 me-0 pe-0 align-items-center">
+                <div class="col about-me-image-section col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <img src="./assets/images/coding.png" alt="Image of Robel Ayelew" id="about-me-image"
+                        class="img-fluid mb-5" />
+                </div>
+
+                <div class="col about-me-text pe-0 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <h2 class="about-me-header-text text-center display-5 mb-3">&lt;My Journey to &lt;Programming/&gt;
+                    </h2>
+                    <p class="about-me-paragraph lead">
+                        My journey into the world of programming began with a
+                        serendipitous encounter—a conversation with a friend who
+                        shared their passion for coding. Intrigued by their enthusiasm and the endless possibilities
+                        that programming offered, I
+                        decided to explore this fascinating realm myself. As I delved into the basics of programming,
+                        guided by my friend's
+                        mentorship and encouragement, I discovered a whole new way of thinking and problem-solving. From
+                        understanding fundamental concepts to writing my first lines of code, each step fueled my
+                        curiosity and drive to learn
+                        more.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Section -->
+    <section class="project-section container-fluid pe-0 ps-0 pt-3 pb-5" id="projects">
+        <h2 class="project-title text-center display-5 mt-4 mb-4">&lt;Projects/&gt;</h2>
+        <div class="container">
+            <div class="card-group row-cols-3 border-none">
+                <div class="card col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                    <img src="./assets/images/saintmarypic.jpg" class="card-img-top" alt="Image of Saint Mary">
+                    <div class="card-body">
+                        <h5 class="card-title">Wedasie Mariam</h5>
+                        <p class="card-text">Wedasie Mariam is an android prayer app that allows people
+                            to pray using their android phone.
+                        </p>
+
+                        <div id="links" class="py-2">
+                            <a href="https://play.google.com/store/apps/details?id=com.nav.wedasiemariam&hl=en_US&gl=US"
+                                target="_blank">
+                                <i class="fa-brands fa-google-play" title="Google Play Store"></i>
+                            </a>
+
+                            <a href="https://github.com/RobelKasahun/wedasie_mariam" target="_blank">
+                                <i class="fa-brands fa-github" title="Github"></i>
+                            </a>
+                        </div>
+
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <small class="text-body-secondary">Java, Android Studio</small>
+                    </div>
+                </div>
+
+                <div class="card col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                    <img src="./assets/images/ping-pong.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ping Pong Game</h5>
+                        <p class="card-text">Ping Pong game is a school project where player plays the game with the
+                            computer.</p>
+
+                        <div id="links" class="py-2">
+                            <a href="https://github.com/RobelKasahun/Ping-Pong-JS-Game" target="_blank">
+                                <i class="fa-brands fa-github" title="Github"></i>
+                            </a>
+
+                            <a href="https://robelkasahun.github.io/Ping-Pong-JS-Game/pages/ping_pong_game.html?"
+                                target="_blank">
+                                <i class="fa-solid fa-globe" title="Web"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-footer text-center">
+                        <small class="text-body-secondary">HTML5, CSS3, JavaScript</small>
+                    </div>
+                </div>
+                <div class="card col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                    <img src="./assets/images/opencv-proj.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">OpenCV Image Edge Detection</h5>
+                        <p class="card-text">This image edges detection uses the default camera to capture realtime
+                            videos
+                            and detects edges.
+                        </p>
+
+                        <div class="container text-center">
+                            <a href="https://github.com/RobelKasahun/cpp-opencv-edge-detection" target="_blank">
+                                <i class="fa-brands fa-github" title="Github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-footer text-center">
+                        <small class="text-body-secondary">C++, OpenCV</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education section -->
+    <section class="container-fluid education-section ps-0 pe-0 bg-light pt-3 pb-3" id="education">
+        <h2 class="education-title text-center display-5 mt-4 mb-4">&lt;Education/&gt;</h2>
+        <div class="row container ed-row justify-content-center align-items-center pe-0" id="row-ed-section">
+            <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                <p class="lead">
+                    My education journey at SFSU as a senior Computer Science major with a Minor in Mathematics has
+                    been instrumental in
+                    developing a deep understanding of computational principles, mathematical concepts, and
+                    their applications in solving real-world problems.
+                </p>
+            </div>
+
+            <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6" id="image-ed-section">
+                <img src="./assets/images/sfsu.png" alt="San Francisco State University logo image" id="sfsu-logo-image"
+                    class="img-fluid justify-content-center" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="container-fluid pt-5 pb-3" id="contact">
+        <h2 class="contact-title text-center display-5 mt-4 mb-4">&lt;Contact Me/&gt;</h2>
+        <div class="container contact-paragraph col col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+            <p class="lead">
+                Feel free to reach out to me for any inquiries, collaboration,
+                projects,
+                internships, or job opportunities. You can also connect with me on LinkedIn to stay updated on my
+                professional journey
+                and explore potential networking opportunities. For coding projects and contributions, you can check out
+                my
+                GitHub
+                profile. I look forward to hearing from you!
+            </p>
+            <button class="row btn-contact-me mb-3">
+                <a href="mailto:robelayelew.24@gmail.com" target="_blank" class="link-dark">CONTACT ME</a>
+            </button>
+            <div id="links" class="px-3 py-2">
+                <a href="https://github.com/RobelKasahun" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/robel-ayelew-197216153/" target="_blank">
+                    <i class="fa-brands fa-linkedin linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section class="footer-section container-fluid px-0 bg-light">
+        <footer class="">
+            <p class="lead footer-text text-center py-3 p mb-0">
+                <small>Copyright © 2024 Robel Ayelew. All rights reserved.</small>
+            </p>
+        </footer>
+    </section>
+
+    <!-- Modal for Resume Page -->
+    <div class="modal fade mb-0" id="exampleModalXl" tabindex="-1" aria-labelledby="exampleModalXlLabel"
+        style="display: none;" aria-hidden="true">
+        <div class="modal-dialog modal-xl mb-0 modal-dialog-scrollable">
+            <div class="modal-content mb-0">
+                <div class="modal-body mb-0 pb-0">
+                    <h1 class="display-6 text-center fw-semibold name">ROBEL AYELEW</h1>
+                    <p class="text-center">San Jose, CA | <i class="fa-solid fa-phone"></i>
+                        408-764-1610 | <i class="fa-solid fa-envelope"></i>
+                        robelayelew.24@gmail.com |
+                        <i class="fa-brands fa-github" id="github"></i>
+                        <a href="https://github.com/RobelKasahun" target="_blank" class="text-decoration-none">
+                            https://github.com/RobelKasahun
+                        </a> |
+                        <i class="fa-brands fa-linkedin font-awesome-brand"></i> <a
+                            href="https://www.linkedin.com/in/robel-ayelew-197216153/" class="text-decoration-none"
+                            target="_blank">
+                            https://www.linkedin.com/in/robel-ayelew-197216153/
+                        </a>
+                    </p>
+
+                    <!-- Education section -->
+                    <div class="container-fluid resume-education-section">
+                        <h5 class="border-bottom pb-0">EDUCATION</h5>
+                        <div class="ed row">
+                            <div class="col col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 col-xxl-10">
+                                <h5 class="mb-0">San Francisco State University</h5>
+                                <p class="mb-0">Bachelor of Science in Computer Science</p>
+                                <p>Cumulative GPA: 3.20/4.0; Dean’s List 2022-2023</p>
+                            </div>
+
+                            <div class="col col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2">
+                                <p class="mb-0">San Francisco, CA</p>
+                                <p>Expected: May 2025</p>
+                            </div>
+
+                            <div class="col col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 col-xxl-10">
+                                <h5 class="mb-0">De Anza Community College</h5>
+                                <p class="mb-0">Associate in Arts</p>
+                                <p>Cumulative GPA: 3.55/4.0; Dean’s List 2016, 2017, 2020</p>
+                            </div>
+
+                            <div class="col col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2">
+                                <p class="mb-0">San Francisco, CA</p>
+                                <p>Expected: June 2024</p>
+                            </div>
+                        </div>
+
+                        <!-- Relevant coursework section -->
+                        <section class="relevant-courseworks">
+                            <h5 class="mb-1 border-bottom">RELEVANT COURSEWORKS</h5>
+                            <div class="row">
+                                <div class="col col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                                    <ul>
+                                        <li>Software Engineering</li>
+                                        <li>Operating Systems</li>
+                                        <li>Algorithms Analysis</li>
+                                        <li>Data Structure and Abstraction</li>
+                                        <li>Programming Methodology</li>
+                                    </ul>
+                                </div>
+
+                                <div class="col col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                                    <ul>
+                                        <li>Introduction to Web Software Development</li>
+                                        <li>Software Development</li>
+                                        <li>Probability and Statistics with Computing</li>
+                                        <li>Linear Algebra</li>
+                                        <li>Database</li>
+                                    </ul>
+                                </div>
+
+                                <div class="col col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                                    <ul>
+                                        <li>Physics</li>
+                                        <li>Discrete Mathematics</li>
+                                        <li>x86 Processor Assembly Language and Computer Architecture</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Technical skills section -->
+                        <section class="technical-skills">
+                            <h5 class="mb-1 border-bottom">TECHNICAL SKILLS</h5>
+                            <div class="row">
+                                <div class="col">
+                                    <h6 class="mb-0">Languages</h6>
+                                    <ul>
+                                        <li>Java</li>
+                                        <li>C/C++</li>
+                                        <li>Python</li>
+                                        <li>SQL</li>
+                                        <li>JavaScript</li>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                    </ul>
+                                </div>
+
+                                <div class="col">
+                                    <h6 class="mb-0">Frameworks / Libraries</h6>
+                                    <ul>
+                                        <li>Bootstrap</li>
+                                        <li>OpenCV</li>
+                                    </ul>
+                                </div>
+
+                                <div class="col">
+                                    <h6 class="mb-0">Developer Tools</h6>
+                                    <ul>
+                                        <li>Github</li>
+                                        <li>Android Studio</li>
+                                        <li>VSCode</li>
+                                        <li>Intelijidea</li>
+                                        <li>MySQL Workbencv</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Personal projects section -->
+                        <section class="personal-projects-sections">
+                            <h5 class="mb-1 border-bottom">PERSONAL PROJECTS</h5>
+                            <div class="row">
+                                <div class="col col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 col-xxl-10">
+                                    <h5 class="mb-0">Wedasie Mariam</h5>
+                                    <ul>
+                                        <li>Designed and Implemented an android application using Java and Android
+                                            Studio.</li>
+                                        <li>Helped 50k people to have an easy access to daily prayer.</li>
+                                        <li>Wedasie Mariam satisfied users and resulted to have 4.8 out 5 stars.</li>
+                                    </ul>
+                                </div>
+
+                                <div class="col col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2">
+                                    <p>Sep 2019</p>
+                                </div>
+
+                                <div class="col col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 col-xxl-10">
+                                    <h5 class="mb-0">Ping Pong Game</h5>
+                                    <ul>
+                                        <li>Developed a game logic, including player, computer movement and
+                                            ball physics.</li>
+                                        <li>Created user interface elements using HTML and styled with CSS.</li>
+                                        <li>Implemented score tracking and game over conditions using JavaScript.</li>
+                                    </ul>
+                                </div>
+
+                                <div class="col col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2">
+                                    <p>Aug 2022</p>
+                                </div>
+
+                                <div class="col col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 col-xxl-10">
+                                    <h5 class="mb-0">Image Edge Detection</h5>
+                                    <ul>
+                                        <li>Utilized OpenCV libraries to capture video frames and perform edge detection
+                                            algorithms.</li>
+                                        <li>Integrated edge detection algorithms such as Canny Edge Detection and
+                                            several
+                                            image processings.</li>
+                                    </ul>
+                                </div>
+
+                                <div class="col col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2">
+                                    <p>April 2024</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="modal-footer justify-content-center pb-0">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JavaScript link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/3d0539b68d.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
